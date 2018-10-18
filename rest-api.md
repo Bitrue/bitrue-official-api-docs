@@ -3,7 +3,7 @@
 * The base endpoint is: **https://www.bitrue.com**
 * All endpoints return either a JSON object or array.
 * All time and timestamp related fields are in milliseconds.
-* All data timestamp:GMT +8
+* All timezone:GMT +8
 * HTTP `4XX` return codes are used for for malformed requests;
   the issue is on the sender's side.
 * HTTP `5XX` return codes are used for internal errors; the issue is on
