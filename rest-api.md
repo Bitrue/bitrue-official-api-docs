@@ -717,6 +717,7 @@ GET /api/v1/openOrders  (HMAC SHA256)
 Name | Type | Mandatory | Description
 ------------ | ------------ | ------------ | ------------
 symbol | STRING | YES |
+limit | INT | NO | Default 100; max 1000.
 recvWindow | LONG | NO |
 timestamp | LONG | YES |
 
